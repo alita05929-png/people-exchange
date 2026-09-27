@@ -1,0 +1,182 @@
+/* Freedom of Money — header, hero, and type */
+#main-header,
+.et-fixed-header#main-header,
+.et-fixed-header#main-header .nav li ul,
+.et-fixed-header .et-search-form,
+#main-header .et_mobile_menu {
+  background: rgba(8, 8, 8, 0.92) !important;
+  box-shadow: 0 1px 0 rgba(240, 185, 11, 0.35) !important;
+}
+
+.et-fixed-header #top-menu a,
+#top-menu > li > a,
+.et_mobile_menu li a,
+.et-fixed-header #top-menu li.current-menu-item > a,
+#top-menu li.current-menu-item > a,
+#top-menu li.current_page_item > a {
+  color: #f3d36b !important;
+}
+
+#top-menu li.current-menu-item > a,
+#top-menu li.current_page_item > a {
+  color: #fff8dc !important;
+}
+
+.logo_container {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: auto !important;
+  line-height: 0;
+}
+
+#logo {
+  display: inline-block !important;
+  height: 52px !important;
+  width: auto !important;
+  max-height: 52px !important;
+  max-width: 280px !important;
+  object-fit: contain;
+}
+
+@media (min-width: 981px) {
+  #main-header .container.et_menu_container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    width: 94% !important;
+    max-width: 1240px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .logo_container {
+    position: static !important;
+    float: none !important;
+    flex: 0 0 auto;
+    margin: 0 !important;
+  }
+
+  #et-top-navigation {
+    float: none !important;
+    padding: 0 !important;
+  }
+
+  #top-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  #top-menu > li > a {
+    font-size: 15px !important;
+    padding: 10px 12px !important;
+    letter-spacing: 0.04em;
+  }
+
+  .page-id-549 #top-menu,
+  .page-id-549 .header-content {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width: 980px) {
+  #main-header,
+  #main-header .et_mobile_menu,
+  #main-header .nav li ul {
+    background: #0c0c0c !important;
+  }
+
+  .logo_container {
+    text-align: left;
+    padding: 8px 0;
+  }
+
+  #logo {
+    height: 42px !important;
+  }
+
+  #top-menu a,
+  .et_mobile_menu a {
+    color: #f3d36b !important;
+    font-size: 18px !important;
+  }
+
+  .mobile_menu_bar:before,
+  .mobile_nav.opened .mobile_menu_bar:before {
+    background: #f0b90b !important;
+    color: #111 !important;
+  }
+
+  .et_mobile_menu li {
+    border-bottom-color: rgba(240, 185, 11, 0.25) !important;
+  }
+}
+
+.et_pb_fullwidth_header_0 {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+.et_pb_fullwidth_header_0 .et_pb_button,
+.et_pb_button_0 {
+  background: #f0b90b !important;
+  color: #14120a !important;
+  border: none !important;
+  border-radius: 999px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+  padding: 12px 26px !important;
+}
+
+.et_pb_fullwidth_header_0 .et_pb_button:hover {
+  background: #ffe08a !important;
+}
+
+.ticker-text {
+  font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+  color: #1a1408 !important;
+}
+
+.et_pb_text,
+.et_pb_text p,
+.et_pb_header_content_wrapper,
+.et_pb_text_inner {
+  font-family: "Open Sans", "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+.et_pb_text h1,
+.et_pb_text h2,
+.et_pb_text h3 {
+  font-family: "Londrina Solid", "Segoe UI", "Microsoft YaHei", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.et_pb_image img,
+.dtq-swapped-img,
+.header-logo {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.et_pb_text_inner {
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 767px) {
+  .et_pb_text h2 {
+    font-size: 32px !important;
+    line-height: 1.15 !important;
+  }
+
+  .ticker-text {
+    font-size: 1.35em !important;
+  }
+}
